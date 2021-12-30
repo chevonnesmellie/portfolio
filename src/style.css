@@ -4,32 +4,50 @@ font-family: 'Poppins', sans-serif;
 
 color: #F9A826*/
 
+:root {
+  --branding-color: #f9a826;
+  --secondary-color: #3f3d56;
+  --heading-font-family: "Poppins", sans-serif;
+  --default-font-family: "Karla", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+  background: #f9f7fe;
+}
+
 h1 {
-  font-family: "Poppins", sans-serif;
-  color: #f9a826;
-  font-size: 50px;
+  font-family: var(--heading-font-family);
+  color: var(--branding-color);
+  font-size: 60px;
 }
 
 h2 {
   font-weight: normal;
-  margin-top: 20px;
+  margin: 35px 0;
 }
 
-img {
+.welcome-image img {
   width: 500px;
 }
 
 .welcome-message {
   text-align: center;
-  font-family: "Karla", sans-serif;
-  color: #3f3d56;
+  color: var(--secondary-color);
 }
 
 .welcome-message p {
-  margin-top: 150px;
-  font-size: 30px;
+  margin-top: 130px;
+  font-size: 50px;
   font-weight: normal;
   margin-bottom: 0;
+}
+
+.btn-branding {
+  color: white;
+  background: var(--branding-color);
+  border-radius: 4px;
+  padding: 10px 25px;
 }
 
 .welcome-image {
@@ -44,5 +62,5 @@ footer {
 }
 
 .contact-icon {
-  color: #f9a826;
+  color: var(--branding-color);
 }
