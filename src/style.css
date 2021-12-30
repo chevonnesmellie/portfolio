@@ -4,27 +4,15 @@ font-family: 'Poppins', sans-serif;
 
 color: #F9A826*/
 
-h1,
-h2,
-h3 {
-  text-align: center;
-  color: purple;
-}
-
-h2 {
-  font-family: "Poppins", sans-serif;
-  color: #3f3d56;
-}
-
 h1 {
   font-family: "Poppins", sans-serif;
   color: #f9a826;
+  font-size: 50px;
 }
 
-h3 {
-  font-family: "Karla", sans-serif;
-  font-weight: 300;
-  color: #3f3d56;
+h2 {
+  font-weight: normal;
+  margin-top: 20px;
 }
 
 img {
@@ -32,7 +20,20 @@ img {
 }
 
 .welcome-message {
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  color: #3f3d56;
+}
+
+.welcome-message p {
   margin-top: 150px;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.welcome-image {
+  margin-top: 30px;
 }
 
 footer {
