@@ -92,6 +92,7 @@ footer {
   width: 300px;
   display: block;
   margin: 80px auto;
+  border-radius: 5px;
 }
 
 .about-section h1 {
