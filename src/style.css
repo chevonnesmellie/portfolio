@@ -78,6 +78,11 @@ h3 {
   border-radius: 4px;
   padding: 10px 25px;
   text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+.btn-branding:hover {
+  color: var(--secondary-color);
 }
 
 .btn-inverted-branding {
@@ -86,6 +91,12 @@ h3 {
   border-radius: 4px;
   padding: 10px 25px;
   font-weight: bold;
+  transition: all 100ms ease-in-out;
+}
+
+.btn-inverted-branding:hover {
+  color: #f9f7fe;
+  background: var(--branding-color);
 }
 
 .welcome-image {
