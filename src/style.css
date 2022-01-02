@@ -182,7 +182,7 @@ p {
   color: var(--branding-color);
 }
 
-@media (max-width: 770px) {
+@media (max-width: 766px) {
   h1 {
     font-size: 40px;
   }
@@ -205,8 +205,6 @@ p {
   }
 
   .welcome-image img {
-    position: relative;
-    top: 90px;
     width: 500px;
   }
 
