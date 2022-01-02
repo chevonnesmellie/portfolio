@@ -114,16 +114,16 @@ footer {
   font-size: 18px;
 }
 
-.webiste-content h2 {
+.projects-content h2 {
   margin: 10px 10px 60px 0;
 }
 
-.website-content p {
+.projects-content p {
   font-size: 17px;
   opacity: 80%;
 }
 
-.website-content a {
+.projects-content a {
   color: var(--branding-color);
 }
 
@@ -132,6 +132,21 @@ footer {
   justify-content: space-around;
   color: var(--branding-color);
   margin-top: 20px;
+}
+
+.contact-content h4 {
+  padding: 30px 0;
+  color: var(--branding-color);
+}
+
+.contact-content a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  opacity: 80%;
+}
+
+.contact-content a:hover {
+  color: var(--branding-color);
 }
 
 @media (max-width: 770px) {
@@ -162,8 +177,14 @@ footer {
   }
 
   .about-section,
-  .website-content {
+  .projects-content,
+  .contact-content {
     text-align: center;
+  }
+
+  .contact-content i {
+    display: block;
+    padding: 0;
   }
 }
 
