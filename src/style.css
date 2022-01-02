@@ -111,15 +111,18 @@ p {
   font-weight: bold;
 }
 
-footer {
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 30px;
-  margin-top: 20px;
+.contact-icon:hover {
+  background: var(--branding-color);
+  color: #f9f7fe;
 }
 
 .contact-icon {
   color: var(--branding-color);
+  font-size: 25px;
+  padding: 10px;
+  margin: 0 30px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
 }
 
 .about-section img {
