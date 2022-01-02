@@ -114,16 +114,16 @@ footer {
   font-size: 18px;
 }
 
-.projects-content h2 {
+.webiste-content h2 {
   margin: 10px 10px 60px 0;
 }
 
-.projects-content p {
+.website-content p {
   font-size: 17px;
   opacity: 80%;
 }
 
-.projects-content a {
+.website-content a {
   color: var(--branding-color);
 }
 
@@ -162,7 +162,7 @@ footer {
   }
 
   .about-section,
-  .projects-content {
+  .website-content {
     text-align: center;
   }
 }
