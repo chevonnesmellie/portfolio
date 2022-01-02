@@ -29,6 +29,7 @@ h3 {
 .logo {
   font-family: "Licorice", cursive;
   font-size: 30px;
+  color: var(--secondary-color);
 }
 
 .navigation {
@@ -178,7 +179,8 @@ p {
 }
 
 .contact-content a:hover,
-.navigation a:hover {
+.navigation a:hover,
+.logo:hover {
   color: var(--branding-color);
 }
 
